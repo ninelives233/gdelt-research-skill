@@ -1,0 +1,4 @@
+interface:
+  display_name: "GDELT 新闻与事件数据研究"
+  short_description: "检索和下载 GDELT 新闻、事件及主题数据，保留可复现的检索记录"
+  default_prompt: "使用 $gdelt-research 检索指定主题与时间范围的 GDELT 数据，导出数据、字段说明和完整性说明。"
