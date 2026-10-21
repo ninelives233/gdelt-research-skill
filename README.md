@@ -19,6 +19,12 @@ https://github.com/ninelives233/gdelt-research-skill/tree/main/gdelt-research
 导出 CSV，并说明筛选口径、字段及完整性。
 ```
 
+## 需要你选择时怎么说明
+
+Skill 会先用通俗语言说明相关名词、每个选项会得到什么，以及对时间、范围、完整性或费用的影响，再请你决定。例如，先解释“报道特征表”和“事件记录”分别能回答什么问题，而不是直接让你在 GKG、Events 等缩写之间选择。根据任务给出推荐，已确定的条件不重复询问。
+
+具体例子见[决策前的解释与提问](gdelt-research/references/decision-guidance.md)。
+
 ## 直接运行脚本
 
 不使用 Codex 也能运行下载器。需要 **Python 3.10+ 和 curl**，无额外 pip 依赖。以下命令在仓库根目录执行：
